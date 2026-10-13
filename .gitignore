@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated orders, downloaded/processed images and logs
+*.xml
+cards/
+export/
+autofill_log.txt
+autofill_crash_log.txt
+
+# Never commit credentials
+client_secrets.json
